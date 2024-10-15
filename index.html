@@ -1,14 +1,28 @@
-<html>
-    <head>
-        <title>Desafio de Projeto HTML</title>
-    </head>
-    <body>
-        <strong>Minha primeira página <i>HTML</i> criada</strong>
-        <h1></h1>
-        <strong>Digite seu nome no campo abaixo:</strong>
-        <input type="text"/>
-        <h1></h1>
-        <strong>Selecione sua idade:</strong>
-        <input type="number"/>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro </title>
+</head>
+<body>
+    <form method="get">
+        <h3>Você selecionou: Pizza de Calabresa</h3>
+        <p>Quais Opcionais Você deseja?</p>
+        <input type="checkbox" name="opcional[]" value="queijo"> + queijo <br>
+        <input type="checkbox" name="opcional[]" value="Calabresa"> + Calabresa <br>
+        <input type="checkbox" name="opcional[]" value="cebola"> + cebola <br>
+        <input type="checkbox" name="opcional[]" value="azeitona"> + azeitona <br>
+        <p>Borda recheada?</p>
+        <input type="radio" name="" value="sim">Sim<br>
+        <input type="radio" name="" value="não">Não<br>
+        <p>Bebida</p>
+        <input type="radio" name="" value="suco">Suco<br>
+        <input type="radio" name="" value="refrigerante">Refrigerante<br>
+        <input type="radio" name="" value="agua">Água<br>
+        <input type="radio" name="" value="nenhum">Nenhum<br>
+
+        <button type="submit">Enviar pedido</button>
+    </form>
+</body>
 </html>
